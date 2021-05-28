@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+/* General */
+
 body {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    text-decoration: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
 }
+
 /* Navbar */
 
-.navbar-nav {
-    font-family: 'Oswald', sans-serif;
-}
+/* Home Section */
