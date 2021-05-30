@@ -39,6 +39,8 @@ body {
     padding-top: 40px;
     padding-bottom: 15px;
     width: 60%;
+    border: 1px solid white;
+    border-radius: 15px;
 }
 
 .iframe-container {
@@ -46,6 +48,7 @@ body {
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
+    border: 2px solid white;
 }
 
 .iframe-container iframe {
@@ -81,16 +84,102 @@ h1 {
 
 /* Gallery */
 
-.gallery-photos {
-    position: relative;
+.gallery-images {
+    margin-top: 8px;
 }
 
 #photos {
     margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
     border-radius: 15px;
+    border: 2px solid white;
 }
+
+/* Contact Us Page */
+
+#contact-details {
+  text-align: center;
+}
+
+.contact-element {
+  display: inline-block;
+  margin: 1%;
+  padding: 3%;
+  vertical-align: top;
+}
+
+.address-wrap {
+  width: 14rem;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}
+
+#contact-details i {
+  font-size: 200%;
+  color: #3a3a3a
+}
+
+.contact-form {
+  color: #fff;
+  background-color: #4f4f4f;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 1.5%;
+}
+
+.contact-form h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.text-input {
+  color: black;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color:black;
+}
+
+.submit-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: black;
+  color: #fff;
+  border: 1px white solid;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.form-layout {
+  text-align: center;
+}
+
+.form-inline {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
 
 /* Footer */
 
