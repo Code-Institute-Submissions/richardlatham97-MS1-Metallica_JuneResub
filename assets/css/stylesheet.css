@@ -60,6 +60,11 @@ body {
     height: 100%;
 }
 
+.home-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 p,
 h1 {
     display: block;
@@ -73,11 +78,35 @@ h1 {
 
 /* Events Page */
 
-
-#metallica-events {
-    width: 100%;
-    height: 20rem;
+.table-text {
+    font-size: 15px;
 }
+
+/* For Desktop */
+@media screen and (min-width: 890px) {
+    #metallica-events {
+        width: 100%;
+        height: 20rem;
+    }
+
+    #metallica-events-mobile {
+        display: none;
+    }
+}
+
+/* For Mobile */
+@media screen and (max-width: 890px) {
+    #metallica-events {
+        display: none;
+    }
+
+    #metallica-events-mobile {
+        width: 100%;
+        height: 20rem;
+    }
+}
+
+
 
 .events-h1 {
     margin-bottom: 2%;
@@ -98,87 +127,87 @@ h1 {
 /* Contact Us Page */
 
 #contact-details {
-  text-align: center;
+    text-align: center;
 }
 
 .contact-element {
-  display: inline-block;
-  margin: 1%;
-  padding: 3%;
-  vertical-align: top;
+    display: inline-block;
+    margin: 1%;
+    padding: 3%;
+    vertical-align: top;
 }
 
 .address-wrap {
-  width: 14rem;
+    width: 14rem;
 }
 
 .word-wrap {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 #contact-details i {
-  font-size: 200%;
-  color: #3a3a3a
+    font-size: 200%;
+    color: #3a3a3a
 }
 
 .contact-form {
-  color: #fff;
-  background-color: #4f4f4f;
-  max-width: 400px;
-  padding: 30px;
-  border-radius: 10px;
-  margin: 0 auto;
-  margin-top: 1.5%;
+    color: #fff;
+    background-color: #4f4f4f;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 1.5%;
 }
 
 .contact-form h2 {
-  color: white;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .text-input {
-  color: black;
-  width: 100%;
-  height: 35px;
-  font-size: 13px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
-  border-radius: 2px;
+    color: black;
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-  border-color:black;
+    border-color: black;
 }
 
 .submit-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: black;
-  color: #fff;
-  border: 1px white solid;
-  display: inline-block;
-  border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: black;
+    color: #fff;
+    border: 1px white solid;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .submit-button:hover {
-  background-color: #fff;
-  color: black;
+    background-color: #fff;
+    color: black;
 }
 
 .form-layout {
-  text-align: center;
+    text-align: center;
 }
 
 .form-inline {
-  display: inline-block;
-  vertical-align: bottom;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 
