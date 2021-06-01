@@ -65,7 +65,7 @@ body {
     padding-bottom: 10px;
 }
 
-p, h1, h6 {
+p, h1, h2, h6 {
     display: block;
     padding-top: 30px;
     padding-left: 10px;
