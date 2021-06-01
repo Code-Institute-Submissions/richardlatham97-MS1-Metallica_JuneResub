@@ -17,13 +17,14 @@ I have created this website to be used as a forum for information on Metallica. 
 - [7. Known Bugs](#7.-known-bugs)
 - [8. Credits](#8.-credits)
 
-<a name="ux"></a>
+
 
 My website link - https://richardlatham97.github.io/MS1-Metallica/index.html
 
 Here is my home page on all devices using Am I Responsive
 [![index.html-web](assets/readme-images/am-i-responsive.png)](assets/readme-images/am-i-responsive.png)
 
+<a name="ux"></a>
 ## 1. UX
 
 [Go to the top](#table-of-contents)
